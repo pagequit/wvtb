@@ -1,1 +1,1 @@
-wvtbp
+webpack, vue, tailwind boilerplate
