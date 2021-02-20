@@ -1,9 +1,9 @@
-import "tailwindcss/tailwind.css";
-import Vue from 'vue';
+import 'tailwindcss/tailwind.css';
+import 'lazysizes';
+
+import { createApp } from 'vue';
 import App from './App.vue';
 
-new Vue({
-	render: h => h(App, {
-		props: { msg: 'Hello World' },
-	}),
-}).$mount('#app');
+createApp(App, {
+	msg: 'Hello World',
+}).mount('#app');

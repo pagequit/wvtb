@@ -5,22 +5,27 @@
     "build": "webpack"
   },
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.5",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
     "css-loader": "^5.0.2",
+    "file-loader": "^6.2.0",
     "html-inline-css-webpack-plugin": "^1.10.1",
     "html-minimizer-webpack-plugin": "^2.1.0",
     "html-webpack-plugin": "^5.1.0",
     "mini-css-extract-plugin": "^1.3.7",
     "postcss": "^8.2.6",
     "postcss-loader": "^5.0.0",
-    "vue-loader": "^15.9.6",
-    "vue-template-compiler": "^2.6.12",
+    "responsive-loader": "^2.3.0",
+    "sharp": "^0.27.1",
+    "vue-loader": "^16.1.2",
     "webpack": "^5.22.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "lazysizes": "^5.3.0",
     "tailwindcss": "^2.0.3",
-    "vue": "^2.6.12"
+    "vue": "^3.0.5"
   }
 }
