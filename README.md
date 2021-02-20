@@ -1,1 +1,2 @@
-webpack, vue, tailwind boilerplate
+webpack, vue, tailwind boilerplate \
++lazy image optimization
